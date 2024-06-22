@@ -1,0 +1,69 @@
+<!-- #BeginLibraryItem "MoodleLecturesetout062024Claude.lbi" -->
+<!-- #This collection of Bootstrap alerts provides a variety of styles and use cases that can be easily incorporated into your Moodle course" -->
+<div class="container-fluid">
+    <h1 class="mb-4">Bootstrap Alerts for Moodle</h1>
+    
+    <div class="alert alert-primary" role="alert">
+        <h4 class="alert-heading">Welcome to the Course!</h4>
+        <p>This is a primary alert. Use it for general information or announcements.</p>
+        <hr>
+        <p class="mb-0">Example: The next live session will be on Friday at 3 PM.</p>
+    </div>
+
+    <div class="alert alert-secondary" role="alert">
+        <h4 class="alert-heading">Additional Resources</h4>
+        <p>This is a secondary alert. Use it for supplementary information.</p>
+        <hr>
+        <p class="mb-0">Example: Check the course library for extra reading materials.</p>
+    </div>
+
+    <div class="alert alert-success" role="alert">
+        <h4 class="alert-heading">Assignment Submitted!</h4>
+        <p>This is a success alert. Use it to confirm actions or celebrate achievements.</p>
+        <hr>
+        <p class="mb-0">Example: Congratulations! Your project has been successfully submitted.</p>
+    </div>
+
+    <div class="alert alert-danger" role="alert">
+        <h4 class="alert-heading">Deadline Approaching</h4>
+        <p>This is a danger alert. Use it for critical warnings or errors.</p>
+        <hr>
+        <p class="mb-0">Example: The final exam is in 24 hours. Don't forget to prepare!</p>
+    </div>
+
+    <div class="alert alert-warning" role="alert">
+        <h4 class="alert-heading">Course Update</h4>
+        <p>This is a warning alert. Use it for important notices that need attention.</p>
+        <hr>
+        <p class="mb-0">Example: The submission format for the next assignment has changed. Please review the new guidelines.</p>
+    </div>
+
+    <div class="alert alert-info" role="alert">
+        <h4 class="alert-heading">Study Tip</h4>
+        <p>This is an info alert. Use it for helpful tips or interesting facts.</p>
+        <hr>
+        <p class="mb-0">Example: Did you know? Taking short breaks during study sessions can improve retention.</p>
+    </div>
+
+    <div class="alert alert-light border" role="alert">
+        <h4 class="alert-heading">Quote of the Day</h4>
+        <p>This is a light alert. Use it for less emphasis or to blend with light backgrounds.</p>
+        <hr>
+        <p class="mb-0">Example: "Education is the passport to the future, for tomorrow belongs to those who prepare for it today." - Malcolm X</p>
+    </div>
+
+    <div class="alert alert-dark" role="alert">
+        <h4 class="alert-heading">Technical Support</h4>
+        <p>This is a dark alert. Use it for high contrast on light backgrounds.</p>
+        <hr>
+        <p class="mb-0">Example: Having trouble accessing course materials? Contact our IT support at support@example.com.</p>
+    </div>
+
+    <div class="alert alert-success alert-dismissible fade show" role="alert">
+        <strong>New Content Available!</strong> The latest module has been unlocked. Start learning now!
+        <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+        </button>
+    </div>
+</div>
+<!-- #EndLibraryItem -->
