@@ -1,0 +1,63 @@
+<!-- This HTML code creates a responsive grid of YouTube video cards that you can use in your Moodle course.-->
+<div class="container-fluid">
+    <h1 class="my-4">Course Video Resources</h1>
+    
+    <div class="row">
+        <!-- Video 1 -->
+        <div class="col-md-6 col-lg-4 mb-4">
+            <div class="card h-100">
+                <a href="https://www.youtube.com/watch?v=VIDEO_ID_1" target="_blank">
+                    <img class="card-img-top" src="https://img.youtube.com/vi/VIDEO_ID_1/0.jpg" alt="Video 1 Thumbnail">
+                </a>
+                <div class="card-body">
+                    <h5 class="card-title">Video 1 Title</h5>
+                    <p class="card-text">A brief description of Video 1 content goes here.</p>
+                </div>
+                <div class="card-footer">
+                    <a href="https://www.youtube.com/watch?v=VIDEO_ID_1" class="btn btn-primary" target="_blank">Watch Video</a>
+                </div>
+            </div>
+        </div>
+
+        <!-- Video 2 -->
+        <div class="col-md-6 col-lg-4 mb-4">
+            <div class="card h-100">
+                <a href="https://www.youtube.com/watch?v=VIDEO_ID_2" target="_blank">
+                    <img class="card-img-top" src="https://img.youtube.com/vi/VIDEO_ID_2/0.jpg" alt="Video 2 Thumbnail">
+                </a>
+                <div class="card-body">
+                    <h5 class="card-title">Video 2 Title</h5>
+                    <p class="card-text">A brief description of Video 2 content goes here.</p>
+                </div>
+                <div class="card-footer">
+                    <a href="https://www.youtube.com/watch?v=VIDEO_ID_2" class="btn btn-primary" target="_blank">Watch Video</a>
+                </div>
+            </div>
+        </div>
+
+        <!-- Video 3 -->
+        <div class="col-md-6 col-lg-4 mb-4">
+            <div class="card h-100">
+                <a href="https://www.youtube.com/watch?v=VIDEO_ID_3" target="_blank">
+                    <img class="card-img-top" src="https://img.youtube.com/vi/VIDEO_ID_3/0.jpg" alt="Video 3 Thumbnail">
+                </a>
+                <div class="card-body">
+                    <h5 class="card-title">Video 3 Title</h5>
+                    <p class="card-text">A brief description of Video 3 content goes here.</p>
+                </div>
+                <div class="card-footer">
+                    <a href="https://www.youtube.com/watch?v=VIDEO_ID_3" class="btn btn-primary" target="_blank">Watch Video</a>
+                </div>
+            </div>
+        </div>
+
+        <!-- Add more video cards as needed -->
+
+    </div>
+
+    <div class="mt-4">
+        <p class="text-muted">Note: Clicking on a video will open it in a new tab on YouTube.</p>
+    </div>
+</div>
+
+<!-- Prompt example to create a set of YouTube searches - Answer from this webpage. Craft a set of separate YouTube searches in this format {https://youtube.com/results?search_query=Importance+of+project+plan+approval} for the subheading topics {Add in the sub-heading topics}-->
