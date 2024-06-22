@@ -1,0 +1,53 @@
+<!-- #BeginLibraryItem "MoodleLecturesetout062024Claude.lbi" -->
+<!-- #a Moodle page layout that accommodates your Zoom lecture, Google Slides presentation, and a link to the PDF version of the slides. -->
+<div class="container-fluid">
+    <div class="row mb-4">
+        <div class="col-12">
+            <h1>Course Name</h1>
+            <h2>Module</h2>
+            <h3>Sub Module section</h3>
+            <h4>Lecture number</h4>
+        </div>
+    </div>
+
+    <div class="row mb-4">
+        <div class="col-12">
+            <div class="embed-responsive embed-responsive-16by9">
+                <iframe class="embed-responsive-item" src="GOOGLE_SLIDES_EMBED_URL" allowfullscreen></iframe>
+            </div>
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="col-md-4 mb-3">
+            <div class="card">
+                <div class="card-body">
+                    <h5 class="card-title">Zoom Session Link</h5>
+                    <p class="card-text">Click on the link below to join the live session or view the recording.</p>
+                    <a href="ZOOM_SESSION_LINK" class="btn btn-primary" target="_blank">Join Zoom Session</a>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-md-4 mb-3">
+            <div class="card">
+                <div class="card-body">
+                    <h5 class="card-title">PDF Version of Slides</h5>
+                    <p class="card-text">Download the PDF version of the lecture slides.</p>
+                    <a href="PDF_SLIDES_LINK" class="btn btn-primary" target="_blank">Download PDF</a>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-md-4 mb-3">
+            <div class="card">
+                <div class="card-body">
+                    <h5 class="card-title">Additional Resources</h5>
+                    <p class="card-text">Access additional reading materials and resources.</p>
+                    <a href="ADDITIONAL_RESOURCES_LINK" class="btn btn-primary" target="_blank">View Resources</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- #EndLibraryItem -->
